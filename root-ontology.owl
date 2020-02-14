@@ -1,0 +1,3864 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/DvXyhnFmrXzv1qpugRdRKI#"
+     xml:base="http://webprotege.stanford.edu/project/DvXyhnFmrXzv1qpugRdRKI"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/DvXyhnFmrXzv1qpugRdRKI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJ9hbQiaTkwWlVqUXnuMqA -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RCJ9hbQiaTkwWlVqUXnuMqA">
+        <rdfs:label>Չտարբերակված բառային իմաստ</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPW23O7TfrP49f2u6LXSqo -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RDPW23O7TfrP49f2u6LXSqo">
+        <rdfs:label>Ընհդհանուր, խոսքիմասային ի</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRmobFet7cITH4tmDxR6oF -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RDRmobFet7cITH4tmDxR6oF">
+        <rdfs:label>Քերականական իմաստ</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ">
+        <rdfs:label xml:lang="hy">hasLexicalMeaning</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ">
+        <rdfs:label xml:lang="hy">hasGrammaticalMeaning</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDxSpNnMZoRvfO7qBHp3egw"/>
+        <rdfs:label xml:lang="hy">Նախադրական կրկնավոր բաղադրություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73xxggOkBHaR8Kz4ZAVpyG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73xxggOkBHaR8Kz4ZAVpyG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBUymOTKnqMgoIEqZAouTqo"/>
+        <rdfs:label xml:lang="hy">Բաղադրիչ-անդամների կազմությամբ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDxSpNnMZoRvfO7qBHp3egw"/>
+        <rdfs:label xml:lang="hy">Հարակցական կրկնավոր բաղադրություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75VOxdkMwRZskMprTSoq9Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75VOxdkMwRZskMprTSoq9Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuOPs8Ra7RJyqNpjSEDaQp"/>
+        <rdfs:label xml:lang="hy">Բայական հարադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Բայական են այն հարադրությունները, որոնք, ամբողջությամբ վերցված, բայիմաստ են արտահայտում։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76oEN03L74owJEppDb7iXf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76oEN03L74owJEppDb7iXf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Մեկ բառային իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Բաղադրիչների բառային ինքնուրույնություն</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy xml:lang="hy">Աղայան Է. Բ., 1984, Ընդհանուր և հայկական բառագիտություն, Երևան, Երևանի համալսարանի հրատարակչություն։</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="hy">Ջահուկյան Գ. Բ., Աղայան Է. Բ., Առաքելյան Վ. Դ., Քոսյան Վ. Ա., 1980, Հայոց լեզու։ Ներածություն, հնչյունաբանություն, բառագիտություն, դարձվածաբանություն, 1-ին մաս, Ա պրակ, Երևան, «Լույս» հրատարակչություն։</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="hy">Վերլուծական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Վերլուծական են այն բաղադրությունները, որոնց բաղադրիչները պահպանում են իրենց բառային ինքնուրույնությունը, այսինքն՝ արտասանվում ու գրվում են որպես առանձին բառեր և մեծ մասամբ ստանում են անկախ բառային շեշտ, թեև ամբողջությամբ արտահայտում են մեկ բառային իմաստ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NgmlpAeBCBD2noSBkfJ1j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NgmlpAeBCBD2noSBkfJ1j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx"/>
+        <rdfs:label xml:lang="hy">Բարդություններ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7StHuux1T3mel7xEKrGCxg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7StHuux1T3mel7xEKrGCxg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">Հոմանիշ բայերի հարակցությամբ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZBKxnInvWJBNPl59qtCjQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZBKxnInvWJBNPl59qtCjQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBMhRVlYb40G69QqnNDcThp"/>
+        <rdfs:label xml:lang="hy">Ստորադասական հատվածական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Ստորադասական են այն հատվածական բաղադրությունները, որոնց բաղադրիչներից մեկը՝ առաջինը, մյուսի լրացումն է։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZjiqnKRz2LefDOcGE6hNW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZjiqnKRz2LefDOcGE6hNW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCliWioHuEuTcMCZqRbO4ce"/>
+        <rdfs:label xml:lang="hy">Բաղադրիչների իմաստաբանական հարաբերակցության</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDxSpNnMZoRvfO7qBHp3egw"/>
+        <rdfs:label xml:lang="hy">Շաղկապական կրկնավոր բաղադրություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xaHKu5c5lgoyYvaH7wBsW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xaHKu5c5lgoyYvaH7wBsW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Սաստկություն-ամբողջականություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R847W2fQKhop41HTvG8yG0n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R847W2fQKhop41HTvG8yG0n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9bMP7jX8X3I5fqwI973BK"/>
+        <rdfs:label xml:lang="hy">Կրկնվող բառի փոփոխության տեսակը</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Առանձնություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Ej5IDDx1Zfeu60NcKHho4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Ej5IDDx1Zfeu60NcKHho4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKhao06NZbfgRXz5tIZhCB"/>
+        <rdfs:label xml:lang="hy">Հարադրյալ</rdfs:label>
+        <skos:definition xml:lang="hy">Հարադրյալը այս կարգի հարադրություններում բայական անդամն է և արտահայտում է բայի քերականական կարգերը (սեռ, դերբայական (կերպային կամ վիճակային) իմաստ, խոնարհված ձևերում՝ եղանակ, ժամանակ, դեմք թիվ)։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Frxi1j7ngnImOeTqXlzST -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Frxi1j7ngnImOeTqXlzST">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF"/>
+        <rdfs:label xml:lang="hy">Հարակատար դերբայով կրկնավոր բաղադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Հարակատար դերբայով դրական և ժխտական կրկնվող ձևերի հարակցությամբ անվանական հարադրություններ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aSNojKSQtAFkjiBLkRB8p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aSNojKSQtAFkjiBLkRB8p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBMhRVlYb40G69QqnNDcThp"/>
+        <rdfs:label xml:lang="hy">Փոխադարձության իմաստով հատվածական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Փոխադարձ են այն հատվածական բաղադրությունները, որոնց բաղադրիչները ցույց են տալիս երկու (երբեմն երեք) անդամների երկկողմանի (եռակողմ) հարաբերություն (փոխադարձություն, զուգադրություն և այլն)։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8c0MQ9fwAt6YvqhKSMygSK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8c0MQ9fwAt6YvqhKSMygSK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">Հապավական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Հապավումը բաղադրյալ անվանումների ու տերմինների կրճատված մասերի միավորումով բաղադրություններ կազմելու եղանանկն է, ինչպես և՝ այդ եղանակով կազմված բաղադրությունները։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Փաղաքշանք-նվազականություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8yDc9IdgI2j0ygvklRxv6O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8yDc9IdgI2j0ygvklRxv6O">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:isDefinedBy xml:lang="hy">Աղայան Է. Բ., 1984, Ընդհանուր և հայկական բառագիտություն, Երևան, Երևանի համալսարանի հրատարակչություն։</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="hy">Ջահուկյան Գ. Բ., Աղայան Է. Բ., Առաքելյան Վ. Դ., Քոսյան Վ. Ա., 1980, Հայոց լեզու։ Ներածություն, հնչյունաբանություն, բառագիտություն, դարձվածաբանություն, 1-ին մաս, Ա պրակ, Երևան, «Լույս» հրատարակչություն։</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="hy">Բառակազմություն</rdfs:label>
+        <skos:definition xml:lang="hy">«Բառակազմություն» բառը, որպես լեզվաբանական տերմին, գործածվում է երկու իմաստով. 1. տվյալ լեզվի բառակազմական համակարգը, 2. բառագիտության մի բաժինը, որ ուսումնասիրում է տվյալ լեզվի բառակազմական համակարգը։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Սաստկական իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Վանկային</rdfs:label>
+        <skos:definition xml:lang="hy">Առաջին եզրը ներկայացնում է մեկ վանկ, որի սկզբի բաղաձայնն ու հաջորդող ձայնավորը կրկնվող բառինն են, իսկ երրորդ՝ բաղաձայն հնչյունն է Փ կամ Ս։ Այս կարգի կրկնությունները սահմանափակ են և կազմվում են առավելապես գունաննուններից, շատ սակավ եպքերում՝ ուրիշ ածականներից։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R847W2fQKhop41HTvG8yG0n"/>
+        <rdfs:label xml:lang="hy">Փոփոխական կրկնություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73xxggOkBHaR8Kz4ZAVpyG"/>
+        <rdfs:label xml:lang="hy">Բարդածանցավոր բառերով հատվածական բաղադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Այպիսի բաղադրություններ կազմվում են նույնական կամ համանիշ ածանցներով կազմված այնպիսի ԲԱՐԴԱԾԱՆՑ բառերից, որոնց  հիմքը հանդիսացող բարդ բառերի վերջին բաղադրիչը նույնպես նույնական է կամ հոմանիշ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VmHOR6TtPzW5jyLEqJFS6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VmHOR6TtPzW5jyLEqJFS6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDDpCYhDCl8CGoDhHSuaCsI"/>
+        <rdfs:label xml:lang="hy">Բայական կրկնավոր բաղադրություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bMP7jX8X3I5fqwI973BK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9bMP7jX8X3I5fqwI973BK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76oEN03L74owJEppDb7iXf"/>
+        <dc:type xml:lang="hy">ԿԱԶՄՈՒԹՅԱՆ ԵՂԱՆԱԿՈՎ կրկնավոր բաղադրությունները, իրենց տարբեր տեսակներով, ներկայացնում են կրկնվող բառերի ՀԱՐԱԿՑՈՒԹՅՈՒՆ, որպես մեկ ամբողջական բաղադրություն։</dc:type>
+        <rdfs:label xml:lang="hy">Կրկնավոր բաղադրություններ (Բառակրկնություններ)</rdfs:label>
+        <skos:definition xml:lang="hy">Կրկնավոր վերլուծական բաղադրությունները ներկայացնում են նույն բառի փոփոխված կամ անփոփոխ, ամբողջական կամ հատվածական կրկնությունը։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iH7JJUfM5qFei2NZnqOBO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9iH7JJUfM5qFei2NZnqOBO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8yDc9IdgI2j0ygvklRxv6O"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Բառակազմական վերլուծություն</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Համաժամանակյա մոտեցում</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Բառերի տեսակը ըստ կազմության</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Հավաքականություն-միասնություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Իմաստը տվյալ կապակցության անդամների միասնությամբ ստեղծվող ուղղակի իմաստն է։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Լրացում լրացյալ հարաբերությամբ անվանական բառակապակցություններ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Կազմվում են խոսքից անկախ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Բաղադրական կայուն բառակապակցություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Բաղադրական են այն կայուն բառակապակցությունները, որոնք կազմվում են ԽՈՍՔԻՑ ԱՆԿԱԽ, որպես բաղադրյալ (բազմանդամ) տերմիններ և բաղադրյալ անուններ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5acQc3YxsyqEyRju0X0pX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5acQc3YxsyqEyRju0X0pX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZjiqnKRz2LefDOcGE6hNW"/>
+        <rdfs:label xml:lang="hy">Քանակի մոտավորություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Հավաքականության իմաստ՝ կրկնվող բառի ցույց տված առարկան (երևույթը և այլն) իր նմանների կամ հարակից իրերի հետ միասին առնված։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Ա&gt;ՈՒ</rdfs:label>
+        <skos:definition xml:lang="hy">Ա ձայնավորը երկրոր եզրում դառնում է ՈՒ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEWMElzpYRBeUOMch9PwRt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEWMElzpYRBeUOMch9PwRt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">Միմյանց զուգորդող (համաժամանակյա) կամ հաջորդող գործողություններ ցույց տվող բայերի հարակացությամբ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Բառային իմաստ փոխաբերական նշանակությամբ՝ հատուկ անվանողական դերով</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Կապվում են խոսքի հետ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Դարձվածային կայուն բառակապակցություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Դարձվածային են այն կայուն բառակապակցությունները որոնք իրենց առաջացմամբ կապվում են ԽՈՍՔԻ ՀԵՏ, այսինքն՝ նախապես եղել են սովորական շարահյուսական կապակցություններ և հետագայում, գործածվելով փոխաբերաբար՝ աստիճանաբար վերածվել են ԻՆՔՆՈՒՐՈՒՅՆ ԲԱՌԱԿԱՊԱԿՑՈՒԹՅԱՆ ու ստացել բառային իմաստ հենց այդ փոխաբերական նշանակությամբ՝ ձեռք բերելով բառին հատուկ անվանողական դեր։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9bMP7jX8X3I5fqwI973BK"/>
+        <rdfs:label xml:lang="hy">Բառակրկնության իմաստը</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyaGi7unVBpQHPBQuPMRpH"/>
+        <rdfs:label xml:lang="hy">Կայուն բայական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Այն զուգորդական բայական հարադրությունները, որոնք չեն կարող փոխարկվել լրացական կապակցությամբ (առաջին բաղադրիչը նույն բայի անորոշ դերբայի գործիական հոլովաձևով), կայուն հարադրություններ են, ստացել են փոխաբերական իմաստ, ցույց են տալիս մեկ գործողություն, ունեն բառային արժեք և սովորաբար մուծվում են բառարանների մեջ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKhao06NZbfgRXz5tIZhCB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBKhao06NZbfgRXz5tIZhCB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNujOaozS4drooSb4Y933d"/>
+        <rdfs:label xml:lang="hy">Կազմությամբ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMhRVlYb40G69QqnNDcThp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMhRVlYb40G69QqnNDcThp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBUymOTKnqMgoIEqZAouTqo"/>
+        <rdfs:label xml:lang="hy">Անդամների քերականական հարաբերությամբ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iH7JJUfM5qFei2NZnqOBO"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Բառակազմորեն վերլուծելի են մեկից ավելի բաղադրիչներ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Մեկից ավելի ձևույթ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Բաղադրյալ բառեր</rdfs:label>
+        <skos:definition xml:lang="hy">Լեզվի բոլոր այն բառերը, որոնք իրենց կազմում ունեն մեկից ավելի ձևույթներ, և, հետևաբար, բառակազմական վերլուծությամբ կարող են վերածվել մեկից ավելի բաղադրիչների։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VmHOR6TtPzW5jyLEqJFS6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Անմիջականության իմաստ՝ «հենց որ...» նշանակությամբ։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Դրական և ժխտական ձևերի հարակցությամբ</rdfs:label>
+        <skos:definition xml:lang="hy">Բայական կրկնավոր բաղադրությունների մի այլ տեսակ պետք է համարել բայի կրկնությունը դրական և ժխտական ձևերի հարակցությամբ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUymOTKnqMgoIEqZAouTqo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUymOTKnqMgoIEqZAouTqo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76oEN03L74owJEppDb7iXf"/>
+        <rdfs:label xml:lang="hy">Հատվածական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Վերլուծական բաղադրություն, որի բաղադրիչները նույնական կամ նույնիմաստ ածականակերտ ածանցներով կազմված և իրար հետ ստորադասության, համադասության կամ փոխադարձության հարաբերությամբ կապակցված բառեր են։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsZdP2vG2xP3Wc7Pp0xnym -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBsZdP2vG2xP3Wc7Pp0xnym">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">Մերձիմաստ բայերի հարակցությամբ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZjiqnKRz2LefDOcGE6hNW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Միասնության, ամբողջության, հավաքականության իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Առնչակից</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Հավաքականության իմաստ՝ կրկնվող բառի ցույց տված առարկան (երևույթը և այլն) իր նմանների կամ հարակից իրերի հետ միասին առնված։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">V&gt;+Մ</rdfs:label>
+        <skos:definition xml:lang="hy">Ձայնավորով սկսվող բառերը երկրորդ եզրում սկզբից ստանում են Մ կամ, սակավ դեպքերում, ուրիշ բաղաձայն։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9c9WA535Hwq9NfkBXqeKt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9c9WA535Hwq9NfkBXqeKt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZjiqnKRz2LefDOcGE6hNW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Միասնության, ամբողջության, հավաքականության իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Հականիշ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iH7JJUfM5qFei2NZnqOBO"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Բառակազմորեն վերլուծելի չեն</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Մեկ ձևույթ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Պարզ բառեր</rdfs:label>
+        <skos:definition xml:lang="hy">Լեզվի բոլոր այն բառերը, որոնք բաղկացած են միայն մեկ ձևույթից և բառակազմական ու ձևույթաբանական տեսակետից վերլուծելի չեն։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZjiqnKRz2LefDOcGE6hNW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Իմաստի սաստկացում</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Հոմանիշ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Հավաքականության իմաստ՝ կրկնվող բառի ցույց տված առարկան (երևույթը և այլն) իր նմանների կամ հարակից իրերի հետ միասին առնված։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">C&gt;Մ</rdfs:label>
+        <skos:definition xml:lang="hy">Բառասկզբի բաղաձայնը երկրորդ եզրում փոխվում է Մ-ի, սակավ դեպքերում՝ ուրիշ բաղաձայնի։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Բաշխականություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyaGi7unVBpQHPBQuPMRpH"/>
+        <rdfs:label xml:lang="hy">Ազատ բայական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Այն զուգորդական հարադրությունները, որոնց առաջին բաղադրիչը կարելի է փոխարկել նույն բայի անորոշ դերբայի գործիական հոլովաձևով և հարադրությունը վերածել լրացական կապակցության։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTs8Ki1dCjw2QnpwIqGq6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Սաստկական իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">*֊C</rdfs:label>
+        <skos:definition xml:lang="hy">Առաջին եզրում ընկնում է բառասկզբի բաղաձայնը։ Այս կարգի կրկնավորները սակավաթիվ են և գրեթե սպառվում են բերվածներով. նկատելի է, որ մեծագույն մասի միջին բաղաձայնն է Լ կամ Ր։ Միավանկ բառերի կրկնվող մասերը միանում են ՈՒ շաղկապով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdWgE6xrAdva1wODzLUezZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdWgE6xrAdva1wODzLUezZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Անորոշություն-զանազանություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCetSuKeBJMsL6jlZOAPg09 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCetSuKeBJMsL6jlZOAPg09">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLgyXgFBkODWRoP5bPMdvp"/>
+        <rdfs:label xml:lang="hy">Կապակցական անվանական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Կապակցական են այն անվանական հարադրությունները, որոնք ներկայացնում են շարահյուսական բառակապակցություն՝ բաղադրիչների համապատասխան քերականական ձևավորումով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VmHOR6TtPzW5jyLEqJFS6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Իմաստի սաստկացում՝ «բոլորովին, իսպառ» նշանակությամբ։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Խոնարհվում է կրկնվող երկրորդ եզրը միայն (սիրելով սիրեցի)։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Անորոշ դերբայի գործիականով</rdfs:label>
+        <skos:definition xml:lang="hy">Բաղադրական կրկնությունների մի առանձին տեսակ են բայական կրկնավոր հարադրությունները, որոնց մեջ բայն առաջին եզրում դրվում է անորոշ դերբայի գործիական հոլովով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCliWioHuEuTcMCZqRbO4ce -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCliWioHuEuTcMCZqRbO4ce">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuOPs8Ra7RJyqNpjSEDaQp"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Հոդ են ստանում, հոգնակի կազմում, հոլովվում են միասնաբար, ինչպես մեկ բառ։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Անվանական հարադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Անվանական հարադրությունները ներկայացնում են անունների (գոյականների, ածականների, թվականների) հարակցություններ, որոնք բաղադրիչների միասնությամբ արտահայտում են նաև իմաստների միասնություն։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDDpCYhDCl8CGoDhHSuaCsI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDDpCYhDCl8CGoDhHSuaCsI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDxSpNnMZoRvfO7qBHp3egw"/>
+        <rdfs:label xml:lang="hy">Կրկնավոր հարադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Բաղադրական կրկնությունների տեսակներ, որոնք խաչաձև են «ՀԱՐԱԴՐԱԿԱՆ ԲԱՂԱԴՐՈՒԹՅՈՒՆՆԵՐ (անվանական, բայական) դասի հետ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76oEN03L74owJEppDb7iXf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Անվանողական դեր</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Մեկ բառային իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Նախադասության մեկ անդամ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Կայուն բառակապակցություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Կայուն բառակապակցությունները երկու և ավելի բառերի կապակցություններ են, որոնք անդամների միասնությամբ արտահայտում են մեկ բառային իմաստ, ունեն անվանողական դեր և նախադասության մեջ հանդես են գալիս իբրև նախադասության մեկ անդամ։ Կայուն բառակապակցությունները, ուրեմն, կարող են ԽՈՍՔԻՑ ԴՈՒՐՍ ՎԵՐԼՈՒԾՎԵԼ որպես բառերի կապակցություններ և դրանցով ստեղծվող որոշակի կառույցներ։</skos:definition>
+        <skos:definition xml:lang="hy">Որպես նախադասության անդամ կայուն բառակապակցությունները տվյալ նախադասության կազմում իրենց անդամներով շարահյուսորեն վերլուծելի չեն, անկախ այն բանից, թե նրանք խոսքից դուրս, իբրև բառակապակցություն, ինչպիսի կառուցվածք ունեն։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDIvN5TsAONirblUcyZrQa3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDIvN5TsAONirblUcyZrQa3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBMhRVlYb40G69QqnNDcThp"/>
+        <rdfs:label xml:lang="hy">Համադասական հատվածական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Համադասական են այն հատվածական բաղադրությունները, որոնց  բաղադրիչները միմյանց լրացում չեն, այլ համազոր, համադաս անդամների մի բառակապակցություն, որը նախադասության մեջ միասնաբար դառնում է գոյականական անդամի լրացում։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNlYb78RZcNQ6px6PytKwP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDNlYb78RZcNQ6px6PytKwP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKhao06NZbfgRXz5tIZhCB"/>
+        <rdfs:label xml:lang="hy">Հարադիր</rdfs:label>
+        <skos:definition xml:lang="hy">Հարադիրը կարող է լինել գոյական, ածական, դերանուն, մակբայ, կապական բառ, հարադրավոր բայերի մեծագույն մասում արտահայտում է հարադրության բառային իմաստը։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNujOaozS4drooSb4Y933d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDNujOaozS4drooSb4Y933d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75VOxdkMwRZskMprTSoq9Q"/>
+        <rdfs:label xml:lang="hy">Հարադրավոր բայեր</rdfs:label>
+        <skos:definition xml:lang="hy">Հարադրավոր բայեր են այն բայական հարադրությունները, որոնց մեկ բաղադրիչն է միայն բայ, իսկ մյուսը անուն է կամ մակբայ։</skos:definition>
+        <skos:definition xml:lang="hy">Հարադրավոր բայերն ունեն մեկ բառի արժեք և անխտիր մուծվում են բառարանների մեջ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">Համադրական բաղադրություններ</rdfs:label>
+        <skos:definition xml:lang="hy">Համադրական են կոչվում այն բաղադրությունները, որոնց բաղադրիչները միմյանց միանալով մեկ բառ են կազմում և ստանում են մեկ հիմնական բառային շեշտ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRSGO6DnU65CbUUZFQs7rU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDRSGO6DnU65CbUUZFQs7rU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx"/>
+        <rdfs:label xml:lang="hy">Ածանցումներ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R847W2fQKhop41HTvG8yG0n"/>
+        <rdfs:label xml:lang="hy">Անփոփոխ կրկնություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjGnuZogc4y4J2TNYu2Zcu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDjGnuZogc4y4J2TNYu2Zcu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB5acQc3YxsyqEyRju0X0pX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Մոտավորության իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Թվականների հարակցական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Թվականներ կապակցվում են ուղղակի հարակցությամբ՝ միացման գծիկով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDojxFen3fXEOLO53qUZNgL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDojxFen3fXEOLO53qUZNgL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Կապակցության համազոր անդամ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Երկանդամ ածականական</rdfs:label>
+        <skos:definition xml:lang="hy">Գծիկով միավորվող երկանդամ (քիչ դեպքերում՝ եռանդամ) ածականական այնպիսի կապակցությունները, որոնք միասնաբար, որպես կապակցության համազոր անդամներ են հանդես գալիս գոյականական բառակապակցություններում։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxSpNnMZoRvfO7qBHp3egw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxSpNnMZoRvfO7qBHp3egw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9bMP7jX8X3I5fqwI973BK"/>
+        <rdfs:label xml:lang="hy">Բառակրկնության եղանակը</rdfs:label>
+        <skos:definition xml:lang="hy">Տարբերվում են ըստ կրկնվող եզրերի միացման եղանակի։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73xxggOkBHaR8Kz4ZAVpyG"/>
+        <rdfs:label xml:lang="hy">Ածականական կապակցություն հատվածական բաղադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Այն վերլուծական բաղադրությունները, որոնք ստացվում են ՆՈՒՅՆԱԿԱՆ կամ ՀԱՄԱՆԻՇ ածանցներով կազմված ածականների համադասական կամ ստորադասական կապակցություններից՝ առաջին անդամի ածանցի կրճատումով և շաղկապի վերացումով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyaGi7unVBpQHPBQuPMRpH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyaGi7unVBpQHPBQuPMRpH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75VOxdkMwRZskMprTSoq9Q"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Ժամանակային համաձայնություն (հակառակ դեպքում՝ անկախ բայերի շարահյուսական կապակցություն՝ բազմակի ստորոգյալներով միավորյալ նախադասություն)</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Կերպային տարբերություն</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Հարադրության երկու անդամներն էլ հավասարապես խոնարհվում են</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Զուգորդական բայեր</rdfs:label>
+        <skos:definition xml:lang="hy">Զուգորդական բայական հարադրությունների էական բնութագիրն այն է, որ դրանք ցույց են տալիս միմյանց հետ զուգորդվող գործողությունների միասնություն, այսինքն՝ երկու (երեք) գործողություններ դիտվում են իբրև մեկ միասնական, միաժամանակյա պրոցես։</skos:definition>
+        <skos:definition xml:lang="hy">Զուգորդական են երկու (սակավ դեպքերում երեք) բայերի կապակցություն ներկայացնող բայական հարադրությունները։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLgyXgFBkODWRoP5bPMdvp"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Կարող են հոդ ստանալ և հոլովվել երկու բաղադրիչներն էլ առանձին-առանձին, բայց վերածվում են հարակացականի (դես ու դեն, դես ու դենից, դեսից-դենից), հակառակ դեպքում լուծվում են ու վերածվում շարահյուսական կապակցության. հատկանշական է, որ այս դեպքում «ու» շաղկապը կարող է փոխվել «և»-ով (սար ու ձոր, սար ու ձորից, սարից-ձորից, սարից ու ձորից/սարից և ձորից)։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Շաղկապական անվանական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Շաղկապական են այն անվանական հարադրությունները, որոնց բաղադրիչները կապակցվում են «ու» (սակավ դեպքերում՝ «և») շաղկապով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLgyXgFBkODWRoP5bPMdvp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLgyXgFBkODWRoP5bPMdvp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCliWioHuEuTcMCZqRbO4ce"/>
+        <rdfs:label xml:lang="hy">Բաղադրիչների կապակցության եղանակի</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNujOaozS4drooSb4Y933d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Բառային իմաստը հարադիրների իմաստն է։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Բուն հարադրավոր բայեր</rdfs:label>
+        <skos:definition xml:lang="hy">Հարադիրը (գոյական, ածական, դերանուն, մակբայ, կապական բառ) արտահայտում է հարադրության բառային իմաստը, իսկ հարադրյալը (բայական անդամ), զրկվում է իր բառային իմաստից, իր դերով նույնանում է բայական վերջավորությունների հետ և արտահայտում է դրանց քերականական իմաստները։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRXq6v3eFtotnieFtClFIK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRXq6v3eFtotnieFtClFIK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB5acQc3YxsyqEyRju0X0pX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Մոտավորության իմաստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Թվականների կապակցական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Առաջին բաղադրիչը դրվում է բացառական հոլովով</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RU8VOXtSN4eZUMk8VduvZy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RU8VOXtSN4eZUMk8VduvZy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLgyXgFBkODWRoP5bPMdvp"/>
+        <rdfs:label xml:lang="hy">Հարակցական անվանական հարադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Հարակցական են այն հարադրությունները, որոնց բաղադրիչները կապակցվում են ուղղակի հարակցությամբ՝ միացման գծիկով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rio0FkWKRYbVVvkFjLSAy6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rio0FkWKRYbVVvkFjLSAy6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDDpCYhDCl8CGoDhHSuaCsI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Բազմակիության, հավաքականության և միասնականության իմաստ՝ «բոլորը միասին, ամբողջությամբ վերցված» նշանակությամբ։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Բառակապակցային կրկնավոր բաղադրություն</rdfs:label>
+        <skos:definition xml:lang="hy">Կրկնավոր  հարադրությունների մի առանձին տեսակ պետք է համարել այն բաղադրական բառակապակցությունները, որոնց առաջին բաղադրիչն է որևէ գոյական, իսկ երկրորդը՝ այդ գոյականից կազմված՝ անձ ցույց տվող ածանցավոր կամ բարդ բառ։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RroZNbBm2T2ah0ZUCJJJSG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RroZNbBm2T2ah0ZUCJJJSG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFIYpOFEA6TFsb7RTODqqy"/>
+        <rdfs:label xml:lang="hy">Բազմակիություն</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNujOaozS4drooSb4Y933d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Բառային իմաստը հարադրյալինն է, բայինը. ամբողջ հարադրությունը հավասար է հարադրվող բային։</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Հավելադրական հարադրավոր բայեր</rdfs:label>
+        <skos:definition xml:lang="hy">Հարադիրները մակբայներ են, որոնց հարադրյալները պահպանում են իրենց բայական իմաստը, և հարադիրը դառնում է հավելադրություն։ Հարադիրները նոր իմաստ չեն տալիս հարադրյալ բայերին, այլ սոսկ զորացնում են դրանց իմաստները։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuOPs8Ra7RJyqNpjSEDaQp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuOPs8Ra7RJyqNpjSEDaQp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76oEN03L74owJEppDb7iXf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pEEFSIhUVYNcOXSxvB5iQ"/>
+                <owl:hasValue xml:lang="hy">Մեկ բառային իմասստ</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9whi1WG30m6Lp5iJFVJEZZ"/>
+                <owl:hasValue xml:lang="hy">Բառերի կապակցություն</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="hy">Հարադրական բաղադրություններ (Հարադրություններ)</rdfs:label>
+        <skos:definition xml:lang="hy">Հարադրական են այն վերլուծական բաղադրությունները, որոնք ներկայացնում են բառերի կապակցություն՝ մեկ բառային իմաստով։</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="hy">Հայերենի քերականություն (ձևայնացում)</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0ATTTEbJfGhiSvYHXVGT2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0ATTTEbJfGhiSvYHXVGT2">
+        <rdfs:label xml:lang="hy">լեռ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0DenPrpNIp7lFnYxyRHM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0DenPrpNIp7lFnYxyRHM">
+        <rdfs:label xml:lang="hy">վա՜</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0GrEkKoB1DUnp172lX9iV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0GrEkKoB1DUnp172lX9iV">
+        <rdfs:label xml:lang="hy">ավելի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0R4mdzGG0nY50SBCvyxH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0R4mdzGG0nY50SBCvyxH">
+        <rdfs:label xml:lang="hy">կոր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0Y6ETA6TGycv9EJpzPX9P -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0Y6ETA6TGycv9EJpzPX9P">
+        <rdfs:label xml:lang="hy">ուր էր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0fXcMp775K1s7SielKTep -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0fXcMp775K1s7SielKTep">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDjGnuZogc4y4J2TNYu2Zcu"/>
+        <rdfs:label xml:lang="hy">հինգ-վեց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R128QbX1CkyfmIEKasFNVM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R128QbX1CkyfmIEKasFNVM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">ձեն-ձուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1Tj0zTzNH7sagVQjBTONf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R1Tj0zTzNH7sagVQjBTONf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDojxFen3fXEOLO53qUZNgL"/>
+        <rdfs:label xml:lang="hy">տնտեսական-արտադրական (բնութագիր)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1ejz2PJGVcvsVNQ0jsIHi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R1ejz2PJGVcvsVNQ0jsIHi">
+        <rdfs:label xml:lang="hy">գռեհիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1jTx9qNhZUs6vhmwJnxdo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R1jTx9qNhZUs6vhmwJnxdo">
+        <rdfs:label xml:lang="hy">զիլ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2S9nbD8tA5KJKt8F6NlCi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R2S9nbD8tA5KJKt8F6NlCi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">ետ վերադառնալ = վերադառնալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2pJDZcDzu3LGp4yC7B91R -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R2pJDZcDzu3LGp4yC7B91R">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">ուտել-ուրանալ = երախտամոռ լինել, երախտիքը մոռանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3V9ch6m2ouz9tjTlZPchj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R3V9ch6m2ouz9tjTlZPchj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">մենք-մենք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5UyYAk7LxUqEDnlMyQAE6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5UyYAk7LxUqEDnlMyQAE6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">նըս-նման</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5q3ntk3F9y10ioioqRcQ3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5q3ntk3F9y10ioioqRcQ3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">թափ ընդ թափ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6rA4NFvvKGpL7S3KeU0LR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R6rA4NFvvKGpL7S3KeU0LR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZBKxnInvWJBNPl59qtCjQ"/>
+        <rdfs:label xml:lang="hy">գերմանա-ֆաշիստական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70FpHd8C6vI8wfLBKLgxeS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R70FpHd8C6vI8wfLBKLgxeS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RRXq6v3eFtotnieFtClFIK"/>
+        <rdfs:label xml:lang="hy">տասից-քսան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70zKfQRDpvX5b6JeRqNfRp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R70zKfQRDpvX5b6JeRqNfRp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB"/>
+        <rdfs:label xml:lang="hy">դաշտ ու անտառ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71PH2GG4sobTqWvIqH2frP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R71PH2GG4sobTqWvIqH2frP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu"/>
+        <rdfs:label xml:lang="hy">այգե-բանջարաբուծական (&lt; այգե-գործական և բանջարաբուծական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73GxAPMWRkdGgkK4fMP5NJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R73GxAPMWRkdGgkK4fMP5NJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">Երևանի պետական համալսարան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R788WkXVisIQwKC3vIJLb9v -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R788WkXVisIQwKC3vIJLb9v">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RRXq6v3eFtotnieFtClFIK"/>
+        <rdfs:label xml:lang="hy">հիսունից-հարյուր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78Ijkzjy7VVtQvpSykvVDG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R78Ijkzjy7VVtQvpSykvVDG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">բարալիկ-մարալիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79XDQDzLENDmVcyMej0apN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R79XDQDzLENDmVcyMej0apN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">առոք-փառոք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7H0NeVpsbK8643sQqx0pw4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7H0NeVpsbK8643sQqx0pw4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">ներս մտնել = մտնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IK2yIso1ntOSkpZM2mmwM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7IK2yIso1ntOSkpZM2mmwM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">տուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7J1ffyGFFusu12hlWfnJmH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7J1ffyGFFusu12hlWfnJmH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">եփել-թափել = տնային զանազան գործերով զբաղվել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7J9KuESLX91BXkQGqGrrgf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7J9KuESLX91BXkQGqGrrgf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx"/>
+        <rdfs:label xml:lang="hy">այգեգործ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JLmspdJHe6YwfGsfHHBvX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7JLmspdJHe6YwfGsfHHBvX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">մըս-մռայլ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JrvAqRv3Sh98KnDECTrE1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7JrvAqRv3Sh98KnDECTrE1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC9c9WA535Hwq9NfkBXqeKt"/>
+        <rdfs:label xml:lang="hy">վեր ու վայր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7LHDPGwdEuGb7bEpBEyP2S -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7LHDPGwdEuGb7bEpBEyP2S">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">բանջար-մանջար</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Lti1xKPSoGVtcQFfQabLc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Lti1xKPSoGVtcQFfQabLc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8"/>
+        <rdfs:label xml:lang="hy">մոռանալով մոռանալ = բոլորովին մոռանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NERRDsal4cTSLdX7TzB6H -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7NERRDsal4cTSLdX7TzB6H">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">կաղ ի կաղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NSUMIcXCrRXXths77yvaO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7NSUMIcXCrRXXths77yvaO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA"/>
+        <rdfs:label xml:lang="hy">կրակ տալ = կրակել, հրդեհել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QPjKOXSSg3O4iO9AxcDTe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7QPjKOXSSg3O4iO9AxcDTe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">վեր բարձրանալ = բարձրանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Qpf5o9ZKh5FzhoKlGTEQw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Qpf5o9ZKh5FzhoKlGTEQw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">մարդ-մուրդ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7S1ChcHVR4VkQlhavc8D4F -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7S1ChcHVR4VkQlhavc8D4F">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEWMElzpYRBeUOMch9PwRt"/>
+        <rdfs:label xml:lang="hy">վերցնել-գնալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7W0q1XIvM6wgXmJGbFsCn0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7W0q1XIvM6wgXmJGbFsCn0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">ոտ-մոտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7W2jljwCjIAVhisxbTyut2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7W2jljwCjIAVhisxbTyut2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">հաց-մաց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XbA7ZnOsm10OnCTgtWKHf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7XbA7ZnOsm10OnCTgtWKHf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">անջատման անուղղակի խնդիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XzUmbnnp4fnoMhELLBevs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7XzUmbnnp4fnoMhELLBevs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">ծառ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZITfNz5SM9MilGndvaawh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ZITfNz5SM9MilGndvaawh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">մեռնել-պրծնել = մեռնելով պրծնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fl51xmYnL5EXYxns5QquR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7fl51xmYnL5EXYxns5QquR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">պալատ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7i1Wc2CnWznYYS0bYlJC5C -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7i1Wc2CnWznYYS0bYlJC5C">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">կափ-կարմիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7j9mHdZbCfI08WAuaaK4LT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7j9mHdZbCfI08WAuaaK4LT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">հայ-հույ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7kkGJ14SRcRl8AvCfLpyQw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7kkGJ14SRcRl8AvCfLpyQw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">մանկավարժական ինստիտուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nZKN2UAgbpzAmsFjkrfFI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7nZKN2UAgbpzAmsFjkrfFI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">տաշի-տուշի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7olTWBy4oUW8K266SO6gRu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7olTWBy4oUW8K266SO6gRu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8Frxi1j7ngnImOeTqXlzST"/>
+        <rdfs:label xml:lang="hy">բերած-չբերած</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rfGG1aUytsIVsAX9msTnB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7rfGG1aUytsIVsAX9msTnB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">մանկ-ա-վարժ-ական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sOhXoOkI6qOlBc9ZfjFnF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7sOhXoOkI6qOlBc9ZfjFnF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">սար</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wWTK2J4aErk2yOMpqOGDl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7wWTK2J4aErk2yOMpqOGDl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">օրենք-մօրենք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7x22zb6iuLDb8iA4IXtQiC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7x22zb6iuLDb8iA4IXtQiC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ամեն մեկ(ը)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xGoySFPQ7XnDl1AKJNTEF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7xGoySFPQ7XnDl1AKJNTEF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">օր ու գիշեր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zZ2zUJIeG68pVWbeYI0Zg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7zZ2zUJIeG68pVWbeYI0Zg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rio0FkWKRYbVVvkFjLSAy6"/>
+        <rdfs:label xml:lang="hy">հանդ-հանդվոր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81M751paaL0dydQbaOSIIs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R81M751paaL0dydQbaOSIIs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RroZNbBm2T2ah0ZUCJJJSG"/>
+        <rdfs:label xml:lang="hy">դեզ-դեզ (գերաններ) = շատ դեզերով</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81YumR8ullJ3Hcf1o3AuHQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R81YumR8ullJ3Hcf1o3AuHQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBsZdP2vG2xP3Wc7Pp0xnym"/>
+        <rdfs:label xml:lang="hy">գալ-հասնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84RykdOkpHTYWmb1R7e3qp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R84RykdOkpHTYWmb1R7e3qp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">ուս-ան-ող-ություն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87Qz8Lr8fvFINNcrkQtTOh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R87Qz8Lr8fvFINNcrkQtTOh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8"/>
+        <rdfs:label xml:lang="hy">ատելով ատել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88NkGPvtMH9Ov3bWfrZRhi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R88NkGPvtMH9Ov3bWfrZRhi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">ընկեր-մընկեր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8AuYPPzggxp16OnsUE9Q8u -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8AuYPPzggxp16OnsUE9Q8u">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">թև ու թիկունք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CCqTBKZuS7UIqQFx9MTsv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8CCqTBKZuS7UIqQFx9MTsv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdfs:label xml:lang="hy">ինչ և ինչ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Dbu97CBgdvm3PuOOEv77P -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8Dbu97CBgdvm3PuOOEv77P">
+        <rdfs:label xml:lang="hy">լուրթ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8DjoOxbP5yNyJfX04lj1WM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8DjoOxbP5yNyJfX04lj1WM">
+        <rdfs:label xml:lang="hy">Ամերիկայի Միացյալ Նահանգներ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8DuGvC7FlYafnHPAmHBrZi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8DuGvC7FlYafnHPAmHBrZi">
+        <rdfs:label xml:lang="hy">չաղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EBtE5crABzt2MBR527XlQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8EBtE5crABzt2MBR527XlQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">կափ-կանաչ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KTMilaTHaMNBEug4X6y4p -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8KTMilaTHaMNBEug4X6y4p">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">տաքուկ-մաքուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8L5Lt2JCsFuU4zRk7HoReS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8L5Lt2JCsFuU4zRk7HoReS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe"/>
+        <rdfs:label xml:lang="hy">անպոչ գդալ = անհարկի միջամտող, անտեղի մեջ ընկնող</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8N8lucMlAFGFMdxyxVF3ho -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8N8lucMlAFGFMdxyxVF3ho">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW"/>
+        <rdfs:label xml:lang="hy">ռազմա-քաղաքական (&lt; ռազմական-քաղաքական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OZVfUiT2bxit9QrKp8KZF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8OZVfUiT2bxit9QrKp8KZF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">փոխ ի փոխ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PAyojXUYi9xjWLtM6JyIg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8PAyojXUYi9xjWLtM6JyIg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">աշխատանքի հասարակական բաժանում</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RwU2A1GaWoF8n0OCHh563 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8RwU2A1GaWoF8n0OCHh563">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA"/>
+        <rdfs:label xml:lang="hy">պար գալ = պարել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8V85nLgGSgqNNFcigDalmb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8V85nLgGSgqNNFcigDalmb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">գր-ա-սեղան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XOdbsNSn9gV4vGOCa5x2u -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8XOdbsNSn9gV4vGOCa5x2u">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">շար ի շար</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YzfaWJ6TV4PxuMFmYKTzU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8YzfaWJ6TV4PxuMFmYKTzU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu"/>
+        <rdfs:label xml:lang="hy">այգե-գինեգործական (&lt; այգեգործական և գինեգործական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZjRVsBbwRElAswXBd4MJe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ZjRVsBbwRElAswXBd4MJe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu"/>
+        <rdfs:label xml:lang="hy">դաշտա-այգեգործական (&lt; դաշտավարական և այգեգործական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dhtec62WbuaBqmLF1aChA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8dhtec62WbuaBqmLF1aChA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDojxFen3fXEOLO53qUZNgL"/>
+        <rdfs:label xml:lang="hy">հասարակական-քաղաքական (աշխատանքներ)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dhwhIwBh7c5AO9hl8piuh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8dhwhIwBh7c5AO9hl8piuh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDjGnuZogc4y4J2TNYu2Zcu"/>
+        <rdfs:label xml:lang="hy">տասը-քսան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dtLEEXO1t9pxzu86suvca -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8dtLEEXO1t9pxzu86suvca">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">խոսքի մաս</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8e1ZHdD22I24XI1z79mypE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8e1ZHdD22I24XI1z79mypE">
+        <rdfs:label xml:lang="hy">գործնականորեն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8e7QL3V55DVDpDFCDvPepA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8e7QL3V55DVDpDFCDvPepA">
+        <rdfs:label xml:lang="hy">շահագործում</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eaYgf1M9iwEKIE8XV9woU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8eaYgf1M9iwEKIE8XV9woU">
+        <rdfs:label xml:lang="hy">չքնաղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hMOytg9EJjMK64qXzK8fM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8hMOytg9EJjMK64qXzK8fM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">անուղղակի խնդիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nBXYpxiQ4tcGGqW23M17o -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nBXYpxiQ4tcGGqW23M17o">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdfs:label xml:lang="hy">հալ ու մաշ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ov04GyfRX9exT0Ga1iqoY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ov04GyfRX9exT0Ga1iqoY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEWMElzpYRBeUOMch9PwRt"/>
+        <rdfs:label xml:lang="hy">պառկել-քնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8p1YtbS5fjHjHLuAgu8bd3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8p1YtbS5fjHjHLuAgu8bd3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi"/>
+        <rdfs:label xml:lang="hy">խումբ առ խումբ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8r7ZVzHDL1wyGVvKFJbLdv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8r7ZVzHDL1wyGVvKFJbLdv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe"/>
+        <rdfs:label xml:lang="hy">կրակի կտոր = եռանդուն, աշխույժ, մոլեգին, կատաղի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rtpZLdiEZpwOQ5W7WjyTn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8rtpZLdiEZpwOQ5W7WjyTn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">սպառ-սպուռ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8sXvYyYn65e8zZ7Bv58xCO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8sXvYyYn65e8zZ7Bv58xCO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">պատի թերթ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8v0GxAQ7ZoTwKjweVuPRVS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8v0GxAQ7ZoTwKjweVuPRVS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">թուփ առ թուփ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wGUBNDQidwoOG1CEOWTwU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8wGUBNDQidwoOG1CEOWTwU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">փալաս-փուլաս</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wP26wvhvggG8KlqKdMMK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8wP26wvhvggG8KlqKdMMK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">սիպ-սիպտակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xZjhWQZNzASYPSXWjnIlB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8xZjhWQZNzASYPSXWjnIlB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">աղ-մաղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ynlBtriwSAgEuRM39NJSw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ynlBtriwSAgEuRM39NJSw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">հեզ ու մեզ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zhIN0HIfK2b3MKI2XP7VR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zhIN0HIfK2b3MKI2XP7VR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ի միջի այլոց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93CMCT0j3bzETJbDIp8crM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R93CMCT0j3bzETJbDIp8crM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBsZdP2vG2xP3Wc7Pp0xnym"/>
+        <rdfs:label xml:lang="hy">ասել-խոսել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93L7CttUJLc9hGSXOo0ENC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R93L7CttUJLc9hGSXOo0ENC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rio0FkWKRYbVVvkFjLSAy6"/>
+        <rdfs:label xml:lang="hy">եզ-եզատեր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94V7fULCqVV2mLbYqYqzav -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R94V7fULCqVV2mLbYqYqzav">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8aSNojKSQtAFkjiBLkRB8p"/>
+        <rdfs:label xml:lang="hy">հայ-ռուսերեն (բառարան)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R961Ujm4wJWZg3KquMxansv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R961Ujm4wJWZg3KquMxansv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">Միավորված ազգերի կազմակերպություն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Afd8r6wOXpJWVe4PUwJg4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Afd8r6wOXpJWVe4PUwJg4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">գալ-ժամանել = գալով ժամանել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Dcs02PJfdgTIQ1XRqKJSh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Dcs02PJfdgTIQ1XRqKJSh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">հագնել-կապել = զգեստավորվել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EQyM2jKcriLAG95hjrpOm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9EQyM2jKcriLAG95hjrpOm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDojxFen3fXEOLO53qUZNgL"/>
+        <rdfs:label xml:lang="hy">դատական-դատախազական (մարմիններ)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9JaaeW6WF5VvszMxjo8fYS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9JaaeW6WF5VvszMxjo8fYS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ուղիղ խնդիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9JiurzdOvE8T9hFqz5VNyp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9JiurzdOvE8T9hFqz5VNyp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF"/>
+        <rdfs:label xml:lang="hy">գնաց-չգնաց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9M0JT3VmqSRP5NbrxFkph1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9M0JT3VmqSRP5NbrxFkph1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">արալ-մարալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NANK8nElCJKJ9aE4P57y5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9NANK8nElCJKJ9aE4P57y5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">մեզ ու մեզ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OyxhnNcxwOofSkWPiqaXC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9OyxhnNcxwOofSkWPiqaXC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDjGnuZogc4y4J2TNYu2Zcu"/>
+        <rdfs:label xml:lang="hy">հարյուր-երկու հարյուր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PnbSLEkUEYSBRotuB9GQr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9PnbSLEkUEYSBRotuB9GQr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">սիրունիկ-միրունիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QhS6OadSiAS38NVAK7vN2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9QhS6OadSiAS38NVAK7vN2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">կարմիր անկյուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QsHgfShTdxXwGNkEq45Qs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9QsHgfShTdxXwGNkEq45Qs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">գալ-հասնել = գալով հասնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QtOospUmt24I83sWVXJn2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9QtOospUmt24I83sWVXJn2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rio0FkWKRYbVVvkFjLSAy6"/>
+        <rdfs:label xml:lang="hy">տուն-տնեցի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RqX1RNQlz56EoUeUHl1Ey -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9RqX1RNQlz56EoUeUHl1Ey">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8"/>
+        <rdfs:label xml:lang="hy">հեռանալով հեռանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TH0nEjXfAWPAC7aptUzT1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9TH0nEjXfAWPAC7aptUzT1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">շիփ-շիտակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9U0flKHV8N0l1XaoZkkUkC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9U0flKHV8N0l1XaoZkkUkC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF"/>
+        <rdfs:label xml:lang="hy">տեսավ-չտեսավ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9W6O7or8ete7jVCxXXYLem -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9W6O7or8ete7jVCxXXYLem">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZBKxnInvWJBNPl59qtCjQ"/>
+        <rdfs:label xml:lang="hy">պատմա-հնչյունաբանական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XiWLw5tIVCtfViqeAU1nq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9XiWLw5tIVCtfViqeAU1nq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDIvN5TsAONirblUcyZrQa3"/>
+        <rdfs:label xml:lang="hy">ռազմա-հայրենասիրական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aklNHZ1xxxpc0b60ujOYj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9aklNHZ1xxxpc0b60ujOYj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xaHKu5c5lgoyYvaH7wBsW"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js"/>
+        <rdfs:label xml:lang="hy">կանաչ-կանաչ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bNMNOiHyRyz4Fs67Hhbdp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9bNMNOiHyRyz4Fs67Hhbdp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">վեր գցել = գցել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9cOzmisSaYibNMd05nu7zD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9cOzmisSaYibNMd05nu7zD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCdWgE6xrAdva1wODzLUezZ"/>
+        <rdfs:label xml:lang="hy">տեղ-տեղ = որոշ տեղեր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dUyL2qvdlnBasGJVfsdUd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9dUyL2qvdlnBasGJVfsdUd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">գր-ա-դարան-ա-վար</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hmIND3iTCC2U8MuC9tQwh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9hmIND3iTCC2U8MuC9tQwh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">տաշ-տուշ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9jnAhGL8xNvjHIoTgcwNIB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9jnAhGL8xNvjHIoTgcwNIB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RRXq6v3eFtotnieFtClFIK"/>
+        <rdfs:label xml:lang="hy">հինգից-վեց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nrBje9kmK71eKZFkb0xzL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9nrBje9kmK71eKZFkb0xzL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">քաշել-տանել = քաշելով տանել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9p23jA3yyGoTptczDYZGsx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9p23jA3yyGoTptczDYZGsx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">սիփ-սիպտակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qiqhkaqx7v2cvx9k7a0Ic -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9qiqhkaqx7v2cvx9k7a0Ic">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ամեն կերպ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vuqF6XKwg5LZFI8I0PJ5K -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9vuqF6XKwg5LZFI8I0PJ5K">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">հայր ու մայր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9whagePv4YgqVPIsWAOqFS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9whagePv4YgqVPIsWAOqFS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">գլուխ գործոց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xb6JbgFMqhlBDoQqI9Cu2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9xb6JbgFMqhlBDoQqI9Cu2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">ծակ ու ծուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xf983PBEsAWjV5sRf5tjf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9xf983PBEsAWjV5sRf5tjf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">առնել-փախչել = առնելով փախչել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ztXuqHYEOgFQ0rFlAchZL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ztXuqHYEOgFQ0rFlAchZL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">սար ու ձոր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1HJS3gueCPHSfVwPBfpVs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB1HJS3gueCPHSfVwPBfpVs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">մատ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB4GoRrjf3cuk7OCTnfmZBJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB4GoRrjf3cuk7OCTnfmZBJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8Frxi1j7ngnImOeTqXlzST"/>
+        <rdfs:label xml:lang="hy">կերած-չկերած</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB77tLRdH6tGaiqgowFUAOM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB77tLRdH6tGaiqgowFUAOM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi"/>
+        <rdfs:label xml:lang="hy">հարյուր-հարյուր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7nLb9ASpsMGL0rMpTerdy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB7nLb9ASpsMGL0rMpTerdy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ինչ և է</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8V9lEaRu134UWCKdcAEp9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB8V9lEaRu134UWCKdcAEp9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCdWgE6xrAdva1wODzLUezZ"/>
+        <rdfs:label xml:lang="hy">տուն առ տուն = յուրաքաչյուր տուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9c940bfHRNRNReU2dDjvR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB9c940bfHRNRNReU2dDjvR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdfs:label xml:lang="hy">ձեն ու ձեն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCCopjDQRzg6GY5GmNXm1z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBCCopjDQRzg6GY5GmNXm1z">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rio0FkWKRYbVVvkFjLSAy6"/>
+        <rdfs:label xml:lang="hy">կալ-կալվոր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCHjrqfpS6O4DJDKYBmSWx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBCHjrqfpS6O4DJDKYBmSWx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDjGnuZogc4y4J2TNYu2Zcu"/>
+        <rdfs:label xml:lang="hy">հիսուն-վաթսուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDGkKmIZ2PocRgWWkagZUC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBDGkKmIZ2PocRgWWkagZUC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">վեր ելնել = ելնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEhqK8x3oyovfugOHHwrVF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBEhqK8x3oyovfugOHHwrVF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdfs:label xml:lang="hy">ինձ ու ինձ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFvxv0O1rKAmA5lhBv4fbu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBFvxv0O1rKAmA5lhBv4fbu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdfs:label xml:lang="hy">շուռ ու մուռ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGCakTibM5mOlSpLa0DkEH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBGCakTibM5mOlSpLa0DkEH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8aSNojKSQtAFkjiBLkRB8p"/>
+        <rdfs:label xml:lang="hy">ռուս-թուրքական (պատերազմ)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIIJPC3pzMoMHJ1FhH59Ea -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBIIJPC3pzMoMHJ1FhH59Ea">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM"/>
+        <rdfs:label xml:lang="hy">դրամ-մրամ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOJGrdRpBBXDhPHzuPvE5W -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBOJGrdRpBBXDhPHzuPvE5W">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ուր որ է</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQbtqXYsMw0GsP96O8EyCG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQbtqXYsMw0GsP96O8EyCG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg"/>
+        <rdfs:label xml:lang="hy">գունդ-գունդ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRkRboGTPLqSwd2gk6H0ng -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBRkRboGTPLqSwd2gk6H0ng">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">ցած խոնարհվել = խոնարհվել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbeI5yldzATZDi8loylSuC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBbeI5yldzATZDi8loylSuC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe"/>
+        <rdfs:label xml:lang="hy">որտեղ որ է = շուտով</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdwYHNPJXUG5dy32GHERSD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBdwYHNPJXUG5dy32GHERSD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RroZNbBm2T2ah0ZUCJJJSG"/>
+        <rdfs:label xml:lang="hy">տեսակ-տեսակ (ուտեստներ) = բազմատեսակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfGXSkuQztg4WOthZs487i -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBfGXSkuQztg4WOthZs487i">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">արավ-ծարավ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhPwWTycRTZCkzI0YEGecm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBhPwWTycRTZCkzI0YEGecm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCetSuKeBJMsL6jlZOAPg09"/>
+        <rdfs:label xml:lang="hy">ձեռով-ոտով (անել)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBn3ZUbDZk8Ntpf9wBCDIRr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBn3ZUbDZk8Ntpf9wBCDIRr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">ավել-մավել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBnm33XtMPffNXv58WYdwky -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBnm33XtMPffNXv58WYdwky">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js"/>
+        <rdfs:label xml:lang="hy">երբեմն-երբեմն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpLeF6nkd6cS2kCo6OgbWs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBpLeF6nkd6cS2kCo6OgbWs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx"/>
+        <rdfs:label xml:lang="hy">գրադարանավար</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBru4XqXz0gkT8ipUpLMmVZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBru4XqXz0gkT8ipUpLMmVZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">խաբ-խուբ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsmk8WgZT9J8ETX2p0nO2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBsmk8WgZT9J8ETX2p0nO2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">ալան-թալան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtRNV27S6Lc1DoSJRlb8Jb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBtRNV27S6Lc1DoSJRlb8Jb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">ճանճ-մանճ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtuBEKsRhaP9yDxQViOWfG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBtuBEKsRhaP9yDxQViOWfG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">առակ-չառակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwnbPV1UaG0J5IkeK9KylC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBwnbPV1UaG0J5IkeK9KylC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">առու</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxSUrahDB61CX43Emhx1XM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBxSUrahDB61CX43Emhx1XM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">տուր և առ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBy9hx50KhJKD5Xh7jEU3a9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBy9hx50KhJKD5Xh7jEU3a9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">արտ-ա-դր-ող-ական-ություն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RByrPttmhlWKE4ea8GeTnGJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RByrPttmhlWKE4ea8GeTnGJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">մեր ու մանուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzQeDJNikxQ95ol42EtsFo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBzQeDJNikxQ95ol42EtsFo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">պաս-պարապ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC04Q0WI0OuFVclNHrlh2qu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC04Q0WI0OuFVclNHrlh2qu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">նազիկ-մազիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0sFIj6qjvmzDmIPMOZaoO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0sFIj6qjvmzDmIPMOZaoO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">ուրագ-մուրագ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2J20NrAOm9ruG8sldlTre -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC2J20NrAOm9ruG8sldlTre">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">մերթ ընդ մերթ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3QZCqg4HbxS9ofDmE07LF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC3QZCqg4HbxS9ofDmE07LF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">դաշտ և անտառ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4nN8SicKEy2cNJ2aTRril -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC4nN8SicKEy2cNJ2aTRril">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">մենք ու մենք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6MbWZqpjNjHyuwoA0Hp69 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC6MbWZqpjNjHyuwoA0Hp69">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu"/>
+        <rdfs:label xml:lang="hy">պտղա-բանջարաբուծական (&lt; պտղա-բուծական և բանջարաբուծական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6RRk1gv4Pt770AuDyj81v -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC6RRk1gv4Pt770AuDyj81v">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB"/>
+        <rdfs:label xml:lang="hy">տնով-տեղով</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6nsCXAY6nw3x9YDoSk6ng -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC6nsCXAY6nw3x9YDoSk6ng">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xaHKu5c5lgoyYvaH7wBsW"/>
+        <rdfs:label xml:lang="hy">սուր-սուր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6tWHMXo0NHihU5LZiTaRB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC6tWHMXo0NHihU5LZiTaRB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7StHuux1T3mel7xEKrGCxg"/>
+        <rdfs:label xml:lang="hy">թոշնել-թառամել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8AKCBXIXrPWfLZIqRSZl7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC8AKCBXIXrPWfLZIqRSZl7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">կազմ-ա-կերպ-ություն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8AigsOkpty1dsGFn4POhX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC8AigsOkpty1dsGFn4POhX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">փասա-փուսա</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC98VLfieizEuzl3MvaGogr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC98VLfieizEuzl3MvaGogr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">միս-մինակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCF9N7ewcnGWoVtL0ACSsDj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCF9N7ewcnGWoVtL0ACSsDj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">քաշել-հանել = քաշելով հանել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFWh2zbyGRawAoHArW2oBy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCFWh2zbyGRawAoHArW2oBy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe"/>
+        <rdfs:label xml:lang="hy">այռուծի կաթ = օղի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFu61ZMmFHhYuNRsqwPzHy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCFu61ZMmFHhYuNRsqwPzHy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">սուտ-փուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGudDDK5bsgdd7Ir062g68 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCGudDDK5bsgdd7Ir062g68">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">սեփ-սև</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLZygDXcVJ24QGbJbhhlnz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCLZygDXcVJ24QGbJbhhlnz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8Frxi1j7ngnImOeTqXlzST"/>
+        <rdfs:label xml:lang="hy">ունեցած-չունեցած</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCO1J7q9AQ0CJYSMXqDtQD2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCO1J7q9AQ0CJYSMXqDtQD2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC9c9WA535Hwq9NfkBXqeKt"/>
+        <rdfs:label xml:lang="hy">չար ու բարի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRTmUIqCcxHfAghGQQiDMT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCRTmUIqCcxHfAghGQQiDMT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdfs:label xml:lang="hy">ցիր ու ցան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRt2495nj2Pi2A0GWL5LKe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCRt2495nj2Pi2A0GWL5LKe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">արուն-գարուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUvJ7jVQp7T1XIp0in7Jhi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCUvJ7jVQp7T1XIp0in7Jhi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW"/>
+        <rdfs:label xml:lang="hy">ռազմա-ծովային (&lt; ռազմական-ծովային)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCX8HiUhIBstQ1YMF0GdhK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCX8HiUhIBstQ1YMF0GdhK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">փալաս-փուլուս</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXP191UWRMxthi94lRqaDV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCXP191UWRMxthi94lRqaDV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">արան-շարան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCY4yd4WFQmMIMUM9SjHaQt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCY4yd4WFQmMIMUM9SjHaQt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">ախտ-բախտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaEz7aiUoHAEIjyLimbNCH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCaEz7aiUoHAEIjyLimbNCH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">սևիկ-մևիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCat5hYRyymAPQSJpFCsjEU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCat5hYRyymAPQSJpFCsjEU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">մեջ ընդ մեջ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbkUBpCkpzUW1PxMXAsfOP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCbkUBpCkpzUW1PxMXAsfOP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9VcaihdRQnbcHo7EGe6eFu"/>
+        <rdfs:label xml:lang="hy">կենսա-մատենագիտական (&lt; կենսագրական և մատենագիտական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCc5pF9RjbN73VZAuMLLhcY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCc5pF9RjbN73VZAuMLLhcY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xaHKu5c5lgoyYvaH7wBsW"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js"/>
+        <rdfs:label xml:lang="hy">մեծ-մեծ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcwTdFu3MFadY9tLMduTpH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCcwTdFu3MFadY9tLMduTpH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8aSNojKSQtAFkjiBLkRB8p"/>
+        <rdfs:label xml:lang="hy">հայ-արաբական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCd2OiXCsB2DsHvUVe2WOgk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCd2OiXCsB2DsHvUVe2WOgk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA"/>
+        <rdfs:label xml:lang="hy">ծափ տալ = ծափահարել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeEEX8QflQuvn4VMWMo9Om -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCeEEX8QflQuvn4VMWMo9Om">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA"/>
+        <rdfs:label xml:lang="hy">բաց անել = բացել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfmTarJDm6EPEPznKMQ3as -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCfmTarJDm6EPEPznKMQ3as">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBsZdP2vG2xP3Wc7Pp0xnym"/>
+        <rdfs:label xml:lang="hy">ծլել-ծաղկել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCi8RwvK0FQ0Vxw2tFY6fQt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCi8RwvK0FQ0Vxw2tFY6fQt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7StHuux1T3mel7xEKrGCxg"/>
+        <rdfs:label xml:lang="hy">աղաչել-պաղատել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCk6QcnBTBEM4JYYWiI6Sob -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCk6QcnBTBEM4JYYWiI6Sob">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">սիփ-սպիտակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkx9bNuVJhZ9GICw36wKUn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCkx9bNuVJhZ9GICw36wKUn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg"/>
+        <rdfs:label xml:lang="hy">տեսակ-տեսակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCoMxOggwuQdaEmqILLy4aK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCoMxOggwuQdaEmqILLy4aK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdfs:label xml:lang="hy">լռիկ-մնջիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpevUkgSKlbvlxv0RR3jPB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCpevUkgSKlbvlxv0RR3jPB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">մատուցման անուղղակի խնդիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpmy48t6nOgwtMusuHRTkj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCpmy48t6nOgwtMusuHRTkj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">առք ու փառք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCrPFeHekSHuvLTgb9WJVfe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCrPFeHekSHuvLTgb9WJVfe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ըստ այսմ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCs8ybDUcwxCd2THao6aspQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCs8ybDUcwxCd2THao6aspQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">փոքր-մոքր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCstERS08dljdgX0QJIflC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCstERS08dljdgX0QJIflC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">մանր-մունր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuZSqEIFPL4fqBo6GyF7ou -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCuZSqEIFPL4fqBo6GyF7ou">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">պատ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvwj1z1XBY2UBJZWvupKDQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCvwj1z1XBY2UBJZWvupKDQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">առու-մառու</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwYVKVZIaPtEpahhJcP4oc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCwYVKVZIaPtEpahhJcP4oc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">ալյուր-մալյուր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCx5BhMFYnNO1kdJbuxdaR3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCx5BhMFYnNO1kdJbuxdaR3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8"/>
+        <rdfs:label xml:lang="hy">սիրելով սիրել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1TiHJEtn7Bo41ipHEVXeR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD1TiHJEtn7Bo41ipHEVXeR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">հարայ-հուրայ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2GZx6BNPOrjbj5hUWIgku -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD2GZx6BNPOrjbj5hUWIgku">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">կուս-մութ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2WoHGosmwFbca7al6FzJ6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD2WoHGosmwFbca7al6FzJ6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">աղքատ-ուղքուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2XNfOPZWHUSwskNQI7Bmx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD2XNfOPZWHUSwskNQI7Bmx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8"/>
+        <rdfs:label xml:lang="hy">անիծելով անիծել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAjhdGwN0twbJkSoenEreM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDAjhdGwN0twbJkSoenEreM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">հանգ ու հունգ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAjws1npD70JSgH9GB6n3I -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDAjws1npD70JSgH9GB6n3I">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">կըս-կլոր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFfAExwaI0X2ZCGJ71Vf3D -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDFfAExwaI0X2ZCGJ71Vf3D">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">խաբս-խուբս</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFgjqkIfN5nyqMjWbBUq0o -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDFgjqkIfN5nyqMjWbBUq0o">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8aSNojKSQtAFkjiBLkRB8p"/>
+        <rdfs:label xml:lang="hy">հայ-վրացական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHLJU0WGO17lOkM4yGnsda -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDHLJU0WGO17lOkM4yGnsda">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">որտեղ որ է</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNpZNQaCQtW8t2wgc3cThZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDNpZNQaCQtW8t2wgc3cThZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ոսկի աքաղաղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSDa3iZrN2xFNGegcWGkFf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDSDa3iZrN2xFNGegcWGkFf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF"/>
+        <rdfs:label xml:lang="hy">եղավ-չեղավ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUC15pguCv6a32CfeCPu6F -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDUC15pguCv6a32CfeCPu6F">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">հանգ-հունգ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWrWPh0TtQc3WqLJhXvT7S -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDWrWPh0TtQc3WqLJhXvT7S">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">պարապ-սարապ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXUpzwbjMiVooiuoJRVJgN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXUpzwbjMiVooiuoJRVJgN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">հանգման անուղղակի խնդիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDc7Hu0UGABiVc3pFX8sIw1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDc7Hu0UGABiVc3pFX8sIw1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">վայր գցել = գցել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdvXK50lE1cg2fMlnFB4Kl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDdvXK50lE1cg2fMlnFB4Kl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW"/>
+        <rdfs:label xml:lang="hy">պատմա-բանասիրական (&lt; պատմական և բանասիրական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgkqUlZpkYxq6klwoKI68u -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDgkqUlZpkYxq6klwoKI68u">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">առակ-պառակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkLZU91jOrwJtYlBcPb1UU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDkLZU91jOrwJtYlBcPb1UU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCdWgE6xrAdva1wODzLUezZ"/>
+        <rdfs:label xml:lang="hy">մեկ-մեկ = երբեմն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkkHsixysvnMSdKviq13M9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDkkHsixysvnMSdKviq13M9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">գյուղատնտեսական ինստիտուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlFFOBKgt7MzxUPOAknYmf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDlFFOBKgt7MzxUPOAknYmf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA"/>
+        <rdfs:label xml:lang="hy">առյուծ կտրել = առյուծանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDliOko0U4XUqKuBY1odqs6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDliOko0U4XUqKuBY1odqs6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDIvN5TsAONirblUcyZrQa3"/>
+        <rdfs:label xml:lang="hy">տեխնիկա-տնտեսական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlozgdQ9Z5MLYQl4UtomPY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDlozgdQ9Z5MLYQl4UtomPY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi"/>
+        <rdfs:label xml:lang="hy">տասը-տասը</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDmzAZMeVG5ZuWeTuFbYcSJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDmzAZMeVG5ZuWeTuFbYcSJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RU8VOXtSN4eZUMk8VduvZy"/>
+        <rdfs:label xml:lang="hy">ընկեր-բարեկամ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDosMemaR6Es84amHtDTiso -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDosMemaR6Es84amHtDTiso">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">գնալ-հեռանալ = գնալով հեռանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpwJdRojwPYEwbrdlIrhKz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDpwJdRojwPYEwbrdlIrhKz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDIvN5TsAONirblUcyZrQa3"/>
+        <rdfs:label xml:lang="hy">պատմա-բանասիրական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqMDCodkImYfrv29azBjsM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDqMDCodkImYfrv29azBjsM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">լիփ-լիքը</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqUvVUWRSZycorJy4LMUDG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDqUvVUWRSZycorJy4LMUDG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">այնուհանդերձ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrmc3pjbqB2MwnYAKgfM8k -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDrmc3pjbqB2MwnYAKgfM8k">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSiupZBXP4RtS23T4EH1rF"/>
+        <rdfs:label xml:lang="hy">եկավ-չեկավ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDt4Xyt5kX1xIs3OFSYqJlK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDt4Xyt5kX1xIs3OFSYqJlK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RLAy2g0JBPwk40RAoxqjLA"/>
+        <rdfs:label xml:lang="hy">մեր և մանուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDttbGd1lNtW3UOrbaYhhgo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDttbGd1lNtW3UOrbaYhhgo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8Frxi1j7ngnImOeTqXlzST"/>
+        <rdfs:label xml:lang="hy">տեսած-չտեսած</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvDwSId9aPp4TNBRH0J5uE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDvDwSId9aPp4TNBRH0J5uE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCetSuKeBJMsL6jlZOAPg09"/>
+        <rdfs:label xml:lang="hy">բեռով-բարձով</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwinwevXAXDEZi6jTB8YEp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDwinwevXAXDEZi6jTB8YEp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx"/>
+        <rdfs:label xml:lang="hy">գանգրահեր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDx32X4892Ed9TwMv3x9uyf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDx32X4892Ed9TwMv3x9uyf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW"/>
+        <rdfs:label xml:lang="hy">լեզվա-գրական (&lt; լեզվական և գրական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyhfNtw89y49bK8rCsAxaB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDyhfNtw89y49bK8rCsAxaB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdfs:label xml:lang="hy">ահ ու սարսափ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RED8lhsnNCgZydutlSm9k8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RED8lhsnNCgZydutlSm9k8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">լավիկ-մավիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REy55YpaXORbAJZ2ZiNPL1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REy55YpaXORbAJZ2ZiNPL1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">նազուկ-մազուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFDgSDahHpJnQDnVWMF7XS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RFDgSDahHpJnQDnVWMF7XS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RroZNbBm2T2ah0ZUCJJJSG"/>
+        <rdfs:label xml:lang="hy">գուն-գունդ (զորքեր) = շատ գնդերից բաղկացած</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGUeNHxohqMDy5NhUVZJNU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGUeNHxohqMDy5NhUVZJNU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RP9tEbPRPxziOI9HTDN1DA"/>
+        <rdfs:label xml:lang="hy">լաց լինել = լացել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGYm0gI13Ccjs4tG91jCqE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGYm0gI13Ccjs4tG91jCqE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCetSuKeBJMsL6jlZOAPg09"/>
+        <rdfs:label xml:lang="hy">ոտով-ձեռով (կորչել)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGeDeoRcrG9BJ7Vz0vutzc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGeDeoRcrG9BJ7Vz0vutzc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCetSuKeBJMsL6jlZOAPg09"/>
+        <rdfs:label xml:lang="hy">ոտից գլուխ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGnwy4LevPusbaV0i3xJWM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGnwy4LevPusbaV0i3xJWM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ePqOlfVIg3NORZ7VRFGj"/>
+        <rdfs:label xml:lang="hy">հեզիկ-մեզիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHTh8NqLsIOI4RHJnCsVN8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RHTh8NqLsIOI4RHJnCsVN8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">հերոս-ական-որեն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIIUg0nNqqsvyYZ1UhplXd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RIIUg0nNqqsvyYZ1UhplXd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEl1GBcxeReXBKTPRK5Nqe"/>
+        <rdfs:label xml:lang="hy">անհոտ ծաղիկ = անտարբեր, ոչ սրտացավ մարդ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIjBK4dQKJPUOJJxf8qveO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RIjBK4dQKJPUOJJxf8qveO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js"/>
+        <rdfs:label xml:lang="hy">հինգ-հինգ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIoGlI1mzt9fQFRK4a7rS0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RIoGlI1mzt9fQFRK4a7rS0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEWMElzpYRBeUOMch9PwRt"/>
+        <rdfs:label xml:lang="hy">քշել-տանել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJEmfg9AbZPgoeXdujkftT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RJEmfg9AbZPgoeXdujkftT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">հընթացս ժամանակի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJfmZRW6NEXCOrHZ6B2NfQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RJfmZRW6NEXCOrHZ6B2NfQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">բարակ-մարակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKG5m1Ck9I037ycO4uljOm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKG5m1Ck9I037ycO4uljOm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">ցած իջնել = իջնել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKu4JuVpDo7yEB064KCHIu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKu4JuVpDo7yEB064KCHIu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdfs:label xml:lang="hy">գոռում-գոչում</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLWGIIJW0Y5RtVAzl8cuSi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLWGIIJW0Y5RtVAzl8cuSi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">ճեփ-ճերմակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLyDyz7o0Akelbq1ThlQIk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLyDyz7o0Akelbq1ThlQIk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDIvN5TsAONirblUcyZrQa3"/>
+        <rdfs:label xml:lang="hy">այգե-բանջարաբուծական</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMmVtDP5HpTpnKUmIsGZnp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RMmVtDP5HpTpnKUmIsGZnp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">առք-փառք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMolVpvkTaguaUtvYDuGH8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RMolVpvkTaguaUtvYDuGH8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDyY0w2tmcpM7XRKGfCdfGW"/>
+        <rdfs:label xml:lang="hy">տեխնիկա-տնտեսական (&lt; տեխնիկական և տնտեսական)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROJhXx6OjBgdhKhCbuXzY2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ROJhXx6OjBgdhKhCbuXzY2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">ծակ-ծուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPO4b0HnzaXVAGAL0jTT16 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RPO4b0HnzaXVAGAL0jTT16">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RroZNbBm2T2ah0ZUCJJJSG"/>
+        <rdfs:label xml:lang="hy">հազար-հազար = բազմահազար</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQEcdRtpUbeKpW7ECHhCvG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RQEcdRtpUbeKpW7ECHhCvG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">առակ-թառակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRi5kwJhwBigQbikG2cgR8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRi5kwJhwBigQbikG2cgR8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R74G58sHMPj5fPOxmRElZBg"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">կաս-կարմիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSWDqjbLpaOTKT52gTy3h9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSWDqjbLpaOTKT52gTy3h9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">ավալ-թավալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSeKQ1B7PjZT8p5NSkbGgo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSeKQ1B7PjZT8p5NSkbGgo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">քեզ ու քեզ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSwS3fwP9FYOKOpPU8N4sG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSwS3fwP9FYOKOpPU8N4sG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">չափ-չուփ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSzj54XLSC3mm2ZI72kRUe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSzj54XLSC3mm2ZI72kRUe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">այլուն-փայլուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTOUZt7APbkcMUXGmXaRhu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RTOUZt7APbkcMUXGmXaRhu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">ձայն-ձույն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RToeJkNE7IM9icgZiG9CVX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RToeJkNE7IM9icgZiG9CVX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAx0Vy60XmaYhTWhfsUiCv"/>
+        <rdfs:label xml:lang="hy">սարք-սուրք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUoewboqZa3q1eGw9lQFzW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RUoewboqZa3q1eGw9lQFzW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi"/>
+        <rdfs:label xml:lang="hy">գունդ առ գունդ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVpgpLqVrWgydSEjhVvgHO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RVpgpLqVrWgydSEjhVvgHO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHO2dTeq4RAiJmWKNV3NOO"/>
+        <rdfs:label xml:lang="hy">ասել-խոսել = զրուցել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWuR2eAlm8vEFbR78fIKIr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RWuR2eAlm8vEFbR78fIKIr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCdWgE6xrAdva1wODzLUezZ"/>
+        <rdfs:label xml:lang="hy">մերթ ընդ մերթ = երբեմնակի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXF0YlrTBjffBlfY07vNre -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RXF0YlrTBjffBlfY07vNre">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">սուսիկ-փուսիկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXZ7e16f7UvA6aZplhA9AT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RXZ7e16f7UvA6aZplhA9AT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">անպոչ գդալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RY75cCcXpDWd8QDOBa7eET -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RY75cCcXpDWd8QDOBa7eET">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">իրեն-իրեն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZHBwy8wkZuWU9wz2UCcle -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZHBwy8wkZuWU9wz2UCcle">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">արվեստի ինստիտուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZUNq6OhTrGmXds3LubWWG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZUNq6OhTrGmXds3LubWWG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCPLdWyMyEgRbZniB6gstpi"/>
+        <rdfs:label xml:lang="hy">դասակ առ դասակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZmKLfLmeo4Pduokh7mfcx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZmKLfLmeo4Pduokh7mfcx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">ես ու ես</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ra5f9NKV2gVLMnvKtb6Qa0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ra5f9NKV2gVLMnvKtb6Qa0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBsZdP2vG2xP3Wc7Pp0xnym"/>
+        <rdfs:label xml:lang="hy">գնալ-հեռանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbKUtUZ1Ap2dKM68CPB14c -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RbKUtUZ1Ap2dKM68CPB14c">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9s7jwrLc65MB1WeLS1NkFM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">աման-չաման</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcsF2b1Eg5aRkaVEw9tuvp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RcsF2b1Eg5aRkaVEw9tuvp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RU8VOXtSN4eZUMk8VduvZy"/>
+        <rdfs:label xml:lang="hy">ընկեր-ընկերուհի</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdrbLKZn9B4mvgIFJqyiOd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdrbLKZn9B4mvgIFJqyiOd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSPs0WfgLeTqTrUQT8QH34"/>
+        <rdfs:label xml:lang="hy">թոշնել-թառամել = թոշնելով թառամել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Re46HwvoK0tXjLREXMSA5B -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Re46HwvoK0tXjLREXMSA5B">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC9c9WA535Hwq9NfkBXqeKt"/>
+        <rdfs:label xml:lang="hy">ծեր ու մանուկ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfgxkppbOsYwfdBXnNVAw3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfgxkppbOsYwfdBXnNVAw3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC1LeGUfort1WhgihjscmiB"/>
+        <rdfs:label xml:lang="hy">ոտով-ձեռով</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfmiRv2AJ1CeDo1iNmZtBK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfmiRv2AJ1CeDo1iNmZtBK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RU8VOXtSN4eZUMk8VduvZy"/>
+        <rdfs:label xml:lang="hy">ջահել-ջիվան</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg2QV3nDD8BQGbEhIKUqEJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rg2QV3nDD8BQGbEhIKUqEJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWeBlSXgwWIsNs4OegI1dh"/>
+        <rdfs:label xml:lang="hy">ապաղ-ճապաղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgWT2djIkSfQ5yP1jvAQhT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RgWT2djIkSfQ5yP1jvAQhT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">կափ-կապույտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhMK71UkRary8UpgIswuCH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RhMK71UkRary8UpgIswuCH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">միջոցի անուղղակի խնդիր</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiO6XLjLH6tIrSKzLJoHOA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RiO6XLjLH6tIrSKzLJoHOA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDOtOXlcsRVkI3ymm2qpQGx"/>
+        <rdfs:label xml:lang="hy">տնային</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjFdiZG7uFf55dNCnR2HbN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjFdiZG7uFf55dNCnR2HbN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZfGihDcLC9QB3z4HX11js"/>
+        <rdfs:label xml:lang="hy">կամաց-կամաց</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkjdEttdQtsNySW3TjlkU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkjdEttdQtsNySW3TjlkU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R3uUwAlaA3THJiuCF0JoF5"/>
+        <rdfs:label xml:lang="hy">տող առ տող</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rlk9b0TcWOv5Jh0N8q4GK3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rlk9b0TcWOv5Jh0N8q4GK3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">ամեն ինչ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rm7UXIwS4ls4vn1M0WqNDT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rm7UXIwS4ls4vn1M0WqNDT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">պտուղ-մտուղ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rn7lPf0Z1xBsJmJhx9zWLu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rn7lPf0Z1xBsJmJhx9zWLu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC2uD7mEMGmjJcQocMZMT6W"/>
+        <rdfs:label xml:lang="hy">ակաս-մակաս</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnPqgrPYaKgZEcUrvqQK3Y -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RnPqgrPYaKgZEcUrvqQK3Y">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBl3jnFw7CDeg3Ck0n8ghU"/>
+        <rdfs:label xml:lang="hy">հրաման</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoKTQrcSMadtTsuPQCTfsp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RoKTQrcSMadtTsuPQCTfsp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC9c9WA535Hwq9NfkBXqeKt"/>
+        <rdfs:label xml:lang="hy">տակ ու գլուխ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoMvkV8A5IitI09SWbJqaX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RoMvkV8A5IitI09SWbJqaX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB5R9H4vtF8w1jKihCMJ5Ag"/>
+        <rdfs:label xml:lang="hy">հատուկ գոյական անուն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RowyHXyzMwKwbdoaRzg84h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RowyHXyzMwKwbdoaRzg84h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8E7WAa8WgN3OlzZdkJ0mz"/>
+        <rdfs:label xml:lang="hy">մենակ-մենակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpopPxX2Fr5F4eE0HK8ELG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RpopPxX2Fr5F4eE0HK8ELG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCfXNZIBxq0yF7Rbvuag3h8"/>
+        <rdfs:label xml:lang="hy">ուրանալով ուրանալ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rpr1CsC7FFaZfyg8ndlIql -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rpr1CsC7FFaZfyg8ndlIql">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ru4GCqnWSz70bySExOTiEs"/>
+        <rdfs:label xml:lang="hy">ետ նահանջել = նահանջել</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqZbTJ6D8c06adeTKVdFbo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RqZbTJ6D8c06adeTKVdFbo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBSH4mArEQKp9oKxhGfCAMV"/>
+        <rdfs:label xml:lang="hy">ան-թույլ-ա-տր-ելի-որեն</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rr9dRcRlvpLlVxYqDz4CAs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rr9dRcRlvpLlVxYqDz4CAs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8z2YIhPlfDjpE2aVRY48zN"/>
+        <rdfs:label xml:lang="hy">սիպ-սպիտակ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ru0aW6n7OfOELPgYwyNcYp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ru0aW6n7OfOELPgYwyNcYp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7klrWSo5vAP8KDiekORhaN"/>
+        <rdfs:label xml:lang="hy">սուտ ու մուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rueo8FzJE5eDFvgacEP902 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rueo8FzJE5eDFvgacEP902">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHpnfkLAnW52cmLYlJCM4n"/>
+        <rdfs:label xml:lang="hy">ախ ու վախ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyfjhgDl656xAKVznLQYRm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RyfjhgDl656xAKVznLQYRm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDErNLWDD2dEjqyUioJ5e7D"/>
+        <rdfs:label xml:lang="hy">հավելյալ արժեք</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RylF9S9tvmY220jfGjKUR6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RylF9S9tvmY220jfGjKUR6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCJxxoxvw8PIHcrwHLE3YGl"/>
+        <rdfs:label xml:lang="hy">սուտ-մուտ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rz6zSSqCziuFyXUtb3tJBX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rz6zSSqCziuFyXUtb3tJBX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZBKxnInvWJBNPl59qtCjQ"/>
+        <rdfs:label xml:lang="hy">ռազմա-օդային</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RBMqC8PcnvQRUMwAEpdbqpu">
+        <rdfs:label xml:lang="hye">Վերաբերմունքային իմաստ արտահայտող բառեր</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
